@@ -1,0 +1,33 @@
+.bg{
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  left: calc(50% - 1440px/2);
+  top: calc(50% - 1024px/2);
+  background: radial-gradient(100% 100% at 50% 0%, #686868 0%, #383838 100%);
+}
+.full-mask{
+  position: absolute;
+  width: 1200px;
+  height: 860px;
+  right: 105px;
+  bottom: 81px;
+  background: #FFFFFF;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+}
+.sidenav{
+  position: absolute;
+  width: 250px;
+  height: 860px;
+  left: 0;
+  top: 0;
+
+  background: #FAFAFA;
+  box-shadow: 1px 0 0 #D1D1D1;
+}
+.dashboard{
+  position: absolute;
+  top: 0;
+  left: 250px;
+}
