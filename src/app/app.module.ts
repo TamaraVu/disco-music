@@ -8,6 +8,10 @@ import {AppRoutingModule} from './app-routing.module';
 import {LessonsComponent} from './lessons/lessons.component';
 import {DropdownDirective} from './dropdown.directive';
 import {LessonTenComponent} from './lessons/lesson-ten/lesson-ten.component';
+import { LessonTileComponent } from './lessons/lesson-tile/lesson-tile.component';
+import { NavbarComponent } from './dashboard/navbar/navbar.component';
+import { ContentComponent } from './dashboard/content/content.component';
+import { CoursesComponent } from './courses/courses.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import {LessonTenComponent} from './lessons/lesson-ten/lesson-ten.component';
     DashboardComponent,
     LessonsComponent,
     DropdownDirective,
-    LessonTenComponent
+    LessonTenComponent,
+    LessonTileComponent,
+    NavbarComponent,
+    ContentComponent,
+    CoursesComponent
   ],
   imports: [
     BrowserModule,
