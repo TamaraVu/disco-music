@@ -1,3 +1,10 @@
+.vertical-bar {
+  height: 100%;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
 .top {
   position: absolute;
   width: 250px;
@@ -101,7 +108,7 @@
   background: url('src/assets/images/Oval 18.png');
 }
 
-h1{
+h1 {
   position: absolute;
   width: 80px;
   height: 26px;
@@ -118,7 +125,7 @@ h1{
   color: #545555;
 }
 
-p{
+p {
   position: absolute;
   width: 113px;
   height: 22px;
@@ -140,15 +147,15 @@ p{
   opacity: 0.5;
 }
 
-.menu{
+.menu {
   position: absolute;
   width: 250px;
   height: 219px;
-  left: 0;
   top: 312px;
+  left: 0;
 }
 
-.menu a{
+.menu a {
   width: 250px;
   height: 36px;
   text-decoration: none;
@@ -171,24 +178,26 @@ p{
   margin-right: 16px;
 }
 
-.note-button {
+.note-button{
   position: absolute;
+  left: 0;
+  top: 540px;
   width: 249px;
   height: 110px;
-  top: 550px;
-  left: 0;
+  padding-bottom: 15px;
   display: flex;
-  align-items: flex-end;
+  justify-content: center;
 }
 
-.note-button i{
+.note-button i {
   height: 20px;
   width: 20px;
   color: black;
   margin-left: 1px;
   margin-right: 1px;
 }
-.menu .active{
+
+.menu .active {
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -196,4 +205,5 @@ p{
   color: #545555;
   background: #EDEFF0;
 }
+
 

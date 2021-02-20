@@ -1,12 +1,14 @@
 <div class="body">
+
   <div class="header">
 
     <div class="icon">
-      <i class="fa fa-file-text-o" style="font-size: 20px;"></i>
-      <p>Lessons</p>
+      <i class="fa fa-file-text-o"></i>
+      <p> Lessons</p>
     </div>
 
     <div class="filter">
+
       <div class="btn-group btn-group-1" appDropdown>
         <p class="text">
           Music Theory</p>
@@ -43,13 +45,14 @@
 
   <div class="content">
 
-    <a class="box" *ngFor="let tile of tiles"
+    <div class="box" *ngFor="let tile of tiles"
     routerLink="/lesson">
       <app-lesson-tile [tile]="tile"></app-lesson-tile>
-    </a>
-
-    <div class="show-more">
-      <p>show more</p>
     </div>
+
+  </div>
+
+  <div class="show-more">
+    <p>show more</p>
   </div>
 </div>

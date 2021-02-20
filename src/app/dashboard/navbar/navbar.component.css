@@ -1,0 +1,21 @@
+.nav-links{
+  display: flex;
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 22px;
+  padding-top: 7px;
+}
+.nav-links a{
+  text-align: center;
+  min-width: 120px;
+  list-style-type: none;
+  text-decoration: none;
+  cursor: pointer;
+  color: #DADADA;
+}
+
+.nav-links .active{
+  color: black;
+  border-bottom: 2px solid #3DAADF;
+}
+
