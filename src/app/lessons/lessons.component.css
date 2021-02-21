@@ -75,7 +75,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  height: calc(100% - 200px);
+  height: calc(100% - 100px);
   padding: 20px 80px 0 80px;
 }
 .box{
@@ -91,27 +91,19 @@
 .show-more{
   display: flex;
   justify-content: center;
-}
-
-
-
-
-
-
-.show-more{
+  align-items: flex-end;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
-
-  display: flex;
-  align-items: flex-end;
-
   color: #9B9B9B;
 
   mix-blend-mode: normal;
   opacity: 0.5;
 }
+
+
+
 
 
 

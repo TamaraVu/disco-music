@@ -12,6 +12,7 @@ import { LessonTileComponent } from './lessons/lesson-tile/lesson-tile.component
 import { NavbarComponent } from './dashboard/navbar/navbar.component';
 import { ContentComponent } from './dashboard/content/content.component';
 import { CoursesComponent } from './courses/courses.component';
+import { DataService } from './services/data-service.service';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,7 @@ import { CoursesComponent } from './courses/courses.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule {
