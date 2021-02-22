@@ -9,10 +9,9 @@ import {DataService} from '../services/data-service.service';
   styleUrls: ['./lessons.component.css']
 })
 export class LessonsComponent implements OnInit {
-
   tiles: Tile[];
 
-  constructor(private readonly dataService: DataService) {
+  constructor(private dataService: DataService) {
   }
 
   ngOnInit(): void {
