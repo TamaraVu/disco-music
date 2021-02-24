@@ -1,1 +1,53 @@
-<p>courses works!</p>
+<div class="header">
+
+  <div class="icon">
+    <i class="fa fa-book"></i>
+    <p> Courses</p>
+  </div>
+
+  <div class="filter">
+
+    <div class="btn-group btn-group-1" appDropdown>
+      <p class="text">
+        Instrument</p>
+      <span class="caret"></span>
+
+      <ul class="dropdown-menu">
+        <li><a>A</a></li>
+        <li><a>B</a></li>
+      </ul>
+    </div>
+
+    <div class="btn-group btn-group-2" appDropdown>
+      <p class="text">
+        New</p>
+      <span class="caret"></span>
+
+      <ul class="dropdown-menu">
+        <li><a>A</a></li>
+        <li><a>B</a></li>
+      </ul>
+    </div>
+
+  </div>
+  <div class="search-wrap">
+    <div class="search-box">
+      <div class="search-btn">
+        <i class="fa fa-search"></i>
+      </div>
+      <input type="text" class="input-search" placeholder="Search">
+    </div>
+  </div>
+</div>
+
+<div class="content">
+
+  <div class="instruments">
+
+    <div class="instrument" *ngFor="let instrument of instruments">
+      <div class="progress"></div>
+      <app-instrument-tile [instrument]="instrument"></app-instrument-tile>
+    </div>
+
+  </div>
+</div>

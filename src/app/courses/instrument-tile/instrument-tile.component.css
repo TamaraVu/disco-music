@@ -1,0 +1,72 @@
+.instrument-box{
+  position: absolute;
+  width: 140px;
+  height: 130px;
+  left: 0;
+  top: 0;
+  background: #EDEFF0;
+  border: 1px solid #D8D8D8;
+  box-sizing: border-box;
+  border-radius: 3px 0 0 3px;
+}
+.progress{
+  position: absolute;
+  width: 224px;
+  height: 5px;
+  left: 140px;
+  top: 124px;
+  border-radius: 0 0 2px 0;
+  background: #EDEFF0;
+}
+.label{
+  position: absolute;
+  width: 185px;
+  height: 100px;
+  left: 160px;
+  top: 20px;
+}
+.label .name{
+  position: absolute;
+  width: 137px;
+  height: 27px;
+  left: 0;
+  top: 22px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  display: flex;
+  align-items: flex-end;
+  color: #545555;
+}
+.label .instrument-text{
+  position: absolute;
+  width: 158px;
+  height: 22px;
+  left: 0;
+  top: 0.5px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: flex-end;
+  color: #9B9B9B;
+}
+.number-lesson{
+  position: absolute;
+  width: 86px;
+  height: 22px;
+  left: 99px;
+  top: 78px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+
+  color: #9B9B9B;
+
+}

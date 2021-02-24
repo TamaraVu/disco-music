@@ -1,0 +1,108 @@
+.header{
+  height: 56px;
+  color: #DADADA;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px 16px;
+}
+
+.icon {
+  display: flex;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+
+  color: #545555;
+  font-size: 20px;
+}
+.fa-book{
+  padding-top: 3px;
+  margin-right: 10px;
+}
+.filter{
+  display: flex;
+  width: 320px;
+  height: 30px;
+}
+.btn-group{
+  padding: 0 20px;
+  background: #EDEFF0;
+  border: 1px solid #9B9B9B;
+  box-sizing: border-box;
+  border-radius: 2px;
+  min-width: 140px;
+}
+.btn-group-1{
+  margin-right: 5px;
+}
+
+.text{
+  height: 19px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  padding-top: 4px;
+  letter-spacing: 0.411765px;
+
+  color: #545555;
+}
+.caret{
+  position: absolute;
+  top: 10px;
+  left: 125px;
+}
+.search-box{
+  background: #FFFFFF;
+  border: 1px solid #D1D1D1;
+  box-sizing: border-box;
+  border-radius: 2px;
+  display: flex;
+  padding: 3px;
+}
+.input-search{
+  border: 0;
+  outline: none;
+}
+.search-btn{
+  margin-right: 3px;
+}
+::placeholder{
+  color: #D1D1D1;
+}
+
+.content{
+  height: calc(100% - 56px);
+  padding-top: 40px;
+}
+
+.instruments {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.progress{
+  position: absolute;
+  width: 224px;
+  height: 5px;
+  left: 140px;
+  top: 124px;
+  border-radius: 0 0 2px 0;
+  background: #EDEFF0;
+}
+
+.instrument{
+  min-width: 365px;
+  min-height: 130px;
+  position: relative;
+  border: 1px solid #D8D8D8;
+  box-sizing: border-box;
+  border-radius: 3px;
+  margin-bottom: 40px;
+}
+
+
+
