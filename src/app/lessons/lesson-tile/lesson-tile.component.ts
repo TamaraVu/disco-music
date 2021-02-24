@@ -8,7 +8,6 @@ import {Tile} from 'src/app/models/tile.model';
   styleUrls: ['./lesson-tile.component.css']
 })
 export class LessonTileComponent {
-
   @Input() tile: Tile;
 
 }

@@ -87,6 +87,7 @@
   border-radius: 3px;
   position: relative;
   margin-bottom: 15px;
+  cursor: pointer;
 }
 .show-more{
   display: flex;

@@ -13,6 +13,7 @@ import { NavbarComponent } from './dashboard/navbar/navbar.component';
 import { ContentComponent } from './dashboard/content/content.component';
 import { CoursesComponent } from './courses/courses.component';
 import { DataService } from './services/data-service.service';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -27,10 +28,11 @@ import { DataService } from './services/data-service.service';
     ContentComponent,
     CoursesComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        FormsModule
+    ],
   providers: [DataService],
   bootstrap: [AppComponent]
 })

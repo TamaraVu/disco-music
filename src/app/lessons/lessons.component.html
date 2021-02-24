@@ -37,7 +37,7 @@
         <div class="search-btn">
           <i class="fa fa-search"></i>
         </div>
-        <input type="text" class="input-search" placeholder="Search">
+        <input type="text" class="input-search" placeholder="Search" [(ngModel)]="title" (input)="search()">
       </div>
     </div>
   </div>
@@ -46,7 +46,7 @@
   <div class="content">
 
     <div class="box" *ngFor="let tile of tiles; let i=index"
-         routerLink="{{'/lesson/' + i}}">
+         routerLink="{{'/lesson/' + (tile.id-1)}}">
       <app-lesson-tile [tile]="tile"></app-lesson-tile>
     </div>
 

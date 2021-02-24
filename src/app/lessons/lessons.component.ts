@@ -10,12 +10,23 @@ import {DataService} from '../services/data-service.service';
 })
 export class LessonsComponent implements OnInit {
   tiles: Tile[];
+  title: string;
 
   constructor(private dataService: DataService) {
   }
 
   ngOnInit(): void {
     this.tiles = this.dataService.getAllTiles();
+  }
+
+  search(){
+    if (this.title === '') {
+      this.ngOnInit();
+    }else{
+      this.tiles = this.tiles.filter(res => {
+        return res.title.toLocaleLowerCase().match(this.title.toLocaleLowerCase());
+      });
+    }
   }
 
 }
